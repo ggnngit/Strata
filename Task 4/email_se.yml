@@ -1,6 +1,6 @@
 apps:
-  - name: exampleOIDCApp
-    type: oidc
+  - name: emailAPI
+    type: API
     # ...
     authentication:
       authenticateSE:
