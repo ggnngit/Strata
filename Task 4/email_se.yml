@@ -1,0 +1,8 @@
+apps:
+  - name: exampleOIDCApp
+    type: oidc
+    # ...
+    authentication:
+      authenticateSE:
+        funcName: CreateEmailHeader
+        file: maverics/extensions/auth.go

@@ -25,7 +25,7 @@ func PrettyPrint(i interface{}) string { //pretty print to show name and value i
 }
 
 func GetUser (){
-    url := "https://jsonplaceholder.typicode.com/users" //define url to retrieve user information
+	url := "https://jsonplaceholder.typicode.com/users" //define url to retrieve user information
 	response, err := http.Get(url) //checking url is up and retrieve user information, if it fails throw an error
 	if err != nil {
 		log.Fatal(err)
