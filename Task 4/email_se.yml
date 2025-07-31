@@ -1,8 +1,0 @@
-apps:
-  - name: emailAPI
-    type: API
-    # ...
-    authentication:
-      authenticateSE:
-        funcName: CreateEmailHeader
-        file: maverics/extensions/auth.go
