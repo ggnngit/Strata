@@ -48,3 +48,7 @@ func CreateEmailHeader(api orchestrator.Orchestrator, _ http.ResponseWriter, _ *
     header["CUSTOM-EMAIL"] = []string{email}
     return header, nil
 }
+
+func main() {
+	CreateEmailHeader()
+}
